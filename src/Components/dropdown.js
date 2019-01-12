@@ -25,10 +25,10 @@ export default class Menu extends React.Component {
   render() {
     return (
       <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-        <DropdownToggle caret>About</DropdownToggle>
+        <DropdownToggle caret>{this.props.item3}</DropdownToggle>
         <DropdownMenu>
           <DropdownItem>{this.props.item1}</DropdownItem>
-          <DropdownItem>Bridal party</DropdownItem>
+          <DropdownItem>{this.props.item2}</DropdownItem>
         </DropdownMenu>
       </Dropdown>
     );

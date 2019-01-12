@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Menu item1="about the couple" item2="bridal party" />
+            <Menu item1="about the couple" item2="bridal party" item3="About" />
           </li>
           <li className="nav-item">
             <Link
@@ -38,7 +38,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Menu item1="accomodations" item2="directions" />
+            <Menu item1="accomodations" item2="directions" item3="Events" />
           </li>
           <li className="nav-item">
             <Link
