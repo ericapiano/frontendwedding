@@ -25,3 +25,7 @@ a {
   background-color: #e9ecef;
   opacity: 0.6;
 }
+
+a.nav-link:hover {
+  font-weight: 600 !important;
+}

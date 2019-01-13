@@ -1,3 +1,7 @@
 .btn-secondary {
   background-color: transparent !important;
 }
+
+dropdown:hover {
+  font-weight: 600;
+}
