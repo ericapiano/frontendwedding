@@ -17,13 +17,34 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg" style={styles.villan}>
       <Link to="/" className="navbar-brand" style={styles.navLink}>
-        Wedding Website
+        {/* Wedding Website */}
       </Link>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Menu item1="about the couple" item2="bridal party" item3="About" />
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+              style={styles.navLink}
+            >
+              Home
+            </Link>
           </li>
+
+          <li className="nav-item">
+            <Menu
+              title="About"
+              text1="about the couple"
+              text2="bridal party"
+              link1="/about-couple"
+              link2="/about-party"
+            />
+          </li>
+
           <li className="nav-item">
             <Link
               to="/RSVP"
@@ -37,8 +58,9 @@ const Navbar = () => {
               RSVP
             </Link>
           </li>
+
           <li className="nav-item">
-            <Menu item1="accomodations" item2="directions" item3="Events" />
+            {/* <Menu item1="accomodations" item2="directions" item3="Events" /> */}
           </li>
           <li className="nav-item">
             <Link
@@ -51,6 +73,20 @@ const Navbar = () => {
               style={styles.navLink}
             >
               Registry
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              to="/directions"
+              className={
+                window.location.pathname === "/directions"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+              style={styles.navLink}
+            >
+              Directions
             </Link>
           </li>
         </ul>

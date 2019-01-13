@@ -15,3 +15,13 @@ li {
 a {
   text-decoration: none;
 }
+
+.navbar-nav {
+  border-bottom: 3px solid black;
+  border-top: 1px solid black;
+}
+
+.navbar {
+  background-color: #e9ecef;
+  opacity: 0.6;
+}

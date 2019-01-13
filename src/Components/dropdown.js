@@ -5,6 +5,14 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
+import { Link } from "react-router-dom";
+
+const styles = {
+  navcolor: {
+    color: "black",
+    backgroundColor: "transparent"
+  }
+};
 
 export default class Menu extends React.Component {
   constructor(props) {
@@ -25,10 +33,16 @@ export default class Menu extends React.Component {
   render() {
     return (
       <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-        <DropdownToggle caret>{this.props.item3}</DropdownToggle>
-        <DropdownMenu>
-          <DropdownItem>{this.props.item1}</DropdownItem>
-          <DropdownItem>{this.props.item2}</DropdownItem>
+        <DropdownToggle color={"transparent"} caret>
+          {this.props.title}
+        </DropdownToggle>
+        <DropdownMenu style={styles.navcolor}>
+          <Link to={this.props.link1}>
+            <DropdownItem>{this.props.text}</DropdownItem>
+          </Link>
+          <Link to={this.props.link1}>
+            <DropdownItem>{this.props.text2}</DropdownItem>
+          </Link>
         </DropdownMenu>
       </Dropdown>
     );
