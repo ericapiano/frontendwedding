@@ -26,6 +26,7 @@ class Homepage extends Component {
           // style={styles.cursive}
         >
           <h1 className="display-4">Joe and Jane</h1>
+
           {/* <p>Looking to meet your next best friend?</p> */}
         </div>
         <div className="container my-5">
