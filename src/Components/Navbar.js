@@ -38,8 +38,8 @@ const Navbar = () => {
           <li className="nav-item">
             <Menu
               title="About"
-              text1="about the couple"
-              text2="bridal party"
+              text1="The Couple"
+              text2="The Bridal Party"
               link1="/about-couple"
               link2="/about-party"
             />
@@ -59,14 +59,14 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Menu
               text2="directions"
               title="Events"
               link1="/accomodations"
               link2="/directions"
             />
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link
               to="/registry"
@@ -83,15 +83,15 @@ const Navbar = () => {
 
           <li className="nav-item">
             <Link
-              to="/directions"
+              to="/events"
               className={
-                window.location.pathname === "/directions"
+                window.location.pathname === "/events"
                   ? "nav-link active"
                   : "nav-link"
               }
               style={styles.navLink}
             >
-              Directions
+              Events
             </Link>
           </li>
         </ul>
