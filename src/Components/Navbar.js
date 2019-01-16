@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Menu
               text1="accomodations"
               text2="directions"
@@ -67,7 +67,7 @@ const Navbar = () => {
               link1="/accomodations"
               link2="/directions"
             />
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link
               to="/registry"
@@ -84,15 +84,15 @@ const Navbar = () => {
 
           <li className="nav-item">
             <Link
-              to="/directions"
+              to="/events"
               className={
-                window.location.pathname === "/directions"
+                window.location.pathname === "/events"
                   ? "nav-link active"
                   : "nav-link"
               }
               style={styles.navLink}
             >
-              Directions
+              Events
             </Link>
           </li>
         </ul>

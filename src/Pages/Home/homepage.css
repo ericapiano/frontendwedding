@@ -26,6 +26,10 @@ body {
   font-size: 25px;
 }
 
-.Countdown-col {
+.number {
+  margin-right: 4px;
+}
+
+.letter {
   margin-right: 4px;
 }

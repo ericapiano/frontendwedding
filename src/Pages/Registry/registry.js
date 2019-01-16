@@ -18,6 +18,13 @@ import "./registry.css";
 
 class Registry extends Component {
   state = {};
+  // shoppingSites = [
+  //   {
+  //     name:"potteryBarn",
+  //     linkURL:"",
+  //     imageURL""
+  //   }
+  // ]
   render() {
     return (
       <div>
@@ -57,7 +64,7 @@ class Registry extends Component {
                   <div id="browse_app">
                     <a
                       class="btn btn-large btn-info shopbtn"
-                      href="https://www.potterybarn.com/shoppingcart/"
+                      href="https://www.bedbathandbeyond.com/"
                     >
                       SHOP
                     </a>
@@ -72,7 +79,7 @@ class Registry extends Component {
                   <div id="browse_app">
                     <a
                       class="btn btn-large btn-info shopbtn"
-                      href="www.sephora.com"
+                      href="https://www.amazon.com/"
                     >
                       SHOP
                     </a>
