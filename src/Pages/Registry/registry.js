@@ -45,16 +45,16 @@ class Registry extends Component {
         <div className="container my-5">
           <div className="row">
             <div className="col-12">
-              <section class="cards">
+              <section className="cards">
                 <article>
                   <img
-                    class="article-img"
+                    className="article-img"
                     src="https://jobapplications.net/wp-content/uploads/bloomingdales-logo.png"
                     alt="Bloomingdales"
                   />
                   <div id="browse_app">
                     <a
-                      class="btn btn-large btn-info shopbtn"
+                      className="btn btn-large btn-info shopbtn"
                       href="https://www.bloomingdales.com/"
                     >
                       SHOP
@@ -63,14 +63,14 @@ class Registry extends Component {
                 </article>
                 <article>
                   <img
-                    class="article-img"
+                    className="article-img"
                     src="https://g.foolcdn.com/art/companylogos/square/BBBY.png"
                     alt="Bed Bath and Beyond"
                   />
                   {/* <h1 class="article-title">Title of article</h1> */}
                   <div id="browse_app">
                     <a
-                      class="btn btn-large btn-info shopbtn"
+                      className="btn btn-large btn-info shopbtn"
                       href="https://www.bedbathandbeyond.com/"
                     >
                       SHOP
@@ -79,13 +79,13 @@ class Registry extends Component {
                 </article>
                 <article>
                   <img
-                    class="article-img"
+                    className="article-img"
                     src="https://pmcdeadline2.files.wordpress.com/2015/08/amazon-featured-image.jpg?w=446&h=299&crop=1"
                     alt="Amazon"
                   />
                   <div id="browse_app">
                     <a
-                      class="btn btn-large btn-info shopbtn"
+                      className="btn btn-large btn-info shopbtn"
                       href="https://www.amazon.com/"
                     >
                       SHOP

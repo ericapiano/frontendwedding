@@ -42,6 +42,7 @@ const Navbar = () => {
               text2="The Bridal Party"
               link1="/about-couple"
               link2="/about-party"
+              className="dropdown"
             />
           </li>
 
@@ -94,20 +95,19 @@ const Navbar = () => {
             >
               Events
             </Link>
-
-            <li className="nav-item">
-              <Link
-                to="/login"
-                className={
-                  window.location.pathname === "/login"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
-                style={styles.navLink}
-              >
-                Login
-              </Link>
-            </li>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/login"
+              className={
+                window.location.pathname === "/login"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+              style={styles.navLink}
+            >
+              Login
+            </Link>
           </li>
         </ul>
       </div>

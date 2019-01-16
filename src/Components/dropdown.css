@@ -16,6 +16,6 @@
   font-weight: 600;
 } */
 
-.dropdown:hover {
-  font-weight: 600;
+div.dropdown:hover {
+  font-weight: 600 !important;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./rsvp.css";
+import perfectImg from "../images/perfect.png";
 
 class RSVP extends Component {
   state = {};
@@ -11,6 +12,10 @@ class RSVP extends Component {
           // style={styles.cursive}
         >
           <h1 className="display-4">Répondez S'il Vous Plaît</h1>
+
+          <p>
+            <img src={perfectImg} alt="sorry, image not found." />
+          </p>
 
           {/* <p>Looking to meet your next best friend?</p> */}
         </div>
