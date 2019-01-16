@@ -61,7 +61,6 @@ const Navbar = () => {
 
           <li className="nav-item">
             <Menu
-              text1="accomodations"
               text2="directions"
               title="Events"
               link1="/accomodations"
