@@ -2,8 +2,10 @@
 
 - reactstrap
 - Mongoose
-- React
 - Express
+- React
 - Node.js
-- get and post routes
+- GET and POST routes
 - moment.js
+- Axios
+- CSS Animation

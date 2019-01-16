@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "./homepage.css";
-
+import perfectImg from "../images/perfect.png";
 import Countdown from "../../Countdown.js";
 
 class Homepage extends Component {
@@ -17,16 +17,17 @@ class Homepage extends Component {
       <div>
         <div className="jumbotron jumbotron-fluid text-center d-flex align-items-center justify-content-center">
           <h1 className="display-4">Jack and Jill</h1>
-          <br />
-          <Countdown className="counter" date={`${year}-06-20T00:00:00`} />
+          {/* <br /> */}
 
-          {/* <p>Looking to meet your next best friend?</p> */}
+          <p>
+            <img src={perfectImg} alt="sorry, image not found." />
+          </p>
+
+          <Countdown className="counter" date={`${year}-06-20T00:00:00`} />
         </div>
         <div className="container my-5">
           <div className="row">
-            <div className="col-12">
-              {/* <p>Looking to meet your next best friend?</p> */}
-            </div>
+            <div className="col-12" />
           </div>
         </div>
       </div>

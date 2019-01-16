@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import perfectImg from "../images/perfect.png";
 
 import "./registry.css";
 // import dogpic from "./images/pups.jpg";
@@ -34,6 +35,12 @@ class Registry extends Component {
         >
           <h1 className="display-4">Thank You Kindly</h1>
           {/* <p>Looking to meet your next best friend?</p> */}
+          <p>
+            <img
+              src={perfectImg}
+              alt="Notice! This service is temporarily out of order."
+            />
+          </p>
         </div>
         <div className="container my-5">
           <div className="row">
@@ -42,13 +49,13 @@ class Registry extends Component {
                 <article>
                   <img
                     class="article-img"
-                    src="https://www.logolynx.com/images/logolynx/eb/eb69ec763edf8991d8c87d9742aaf57f.jpeg"
-                    alt=" "
+                    src="https://jobapplications.net/wp-content/uploads/bloomingdales-logo.png"
+                    alt="Bloomingdales"
                   />
                   <div id="browse_app">
                     <a
                       class="btn btn-large btn-info shopbtn"
-                      href="https://www.potterybarn.com/shoppingcart/"
+                      href="https://www.bloomingdales.com/"
                     >
                       SHOP
                     </a>
@@ -58,7 +65,7 @@ class Registry extends Component {
                   <img
                     class="article-img"
                     src="https://g.foolcdn.com/art/companylogos/square/BBBY.png"
-                    alt=" "
+                    alt="Bed Bath and Beyond"
                   />
                   {/* <h1 class="article-title">Title of article</h1> */}
                   <div id="browse_app">
@@ -74,7 +81,7 @@ class Registry extends Component {
                   <img
                     class="article-img"
                     src="https://pmcdeadline2.files.wordpress.com/2015/08/amazon-featured-image.jpg?w=446&h=299&crop=1"
-                    alt=" "
+                    alt="Amazon"
                   />
                   <div id="browse_app">
                     <a
@@ -85,30 +92,6 @@ class Registry extends Component {
                     </a>
                   </div>
                 </article>
-                {/* <article>
-                  <img
-                    class="article-img"
-                    src="http://placekitten.com/280/250"
-                    alt=" "
-                  />
-                  <h1 class="article-title">Title of article</h1>
-                </article> */}
-                {/* <article>
-                  <img
-                    class="article-img"
-                    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTc9BbC0ceryp4nX9q3ATk_EMbnQmCQw-QxsV_oEfKRcZHWi0UWBy7CdXxvyAok1nqr_XvgtjbRixq2CbNr5wA7oZwXWwKhOfjkkgz6mzESF4JiakhKa_eC&usqp=CAE"
-                    alt=" "
-                  />
-                  <h1 class="article-title">Plates</h1>
-                </article> */}
-                {/* <article>
-                  <img
-                    class="article-img"
-                    src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgXOQQqjs0oHUvg6iBANtd23knfGGCS72H82wiqhQAOUehlJJNvuAjqdpvr8-v_q0YO90iibOWZTE3gX-TVnJUUxXztcr3fHVp5004YTzjuNFlh12uHglsXw&usqp=CAE"
-                    alt=" "
-                  />
-                  <h1 class="article-title">Bedding</h1>
-                </article> */}
               </section>
             </div>
           </div>
