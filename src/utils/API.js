@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default {
-  getSavedEvents: function() {
+  getAllEvents: function() {
     return axios.get('/api/events')
-  },
+  }
 }

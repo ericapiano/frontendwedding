@@ -15,7 +15,7 @@ const styles = {
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg nav-animate" style={styles.villan}>
+    <nav className="navbar navbar-expand-lg" style={styles.villan}>
       <Link to="/" className="navbar-brand" style={styles.navLink}>
         {/* Wedding Website */}
       </Link>
