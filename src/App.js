@@ -5,8 +5,7 @@ import Navbar from "./Components/Navbar";
 import AboutCouple from "./Pages/AboutCouple";
 import Homepage from "./Pages/Home";
 import RSVP from "./Pages/RSVP";
-import Directions from "./Pages/Directions";
-import Accomodations from "./Pages/Accomodations";
+import Events from "./Pages/Events";
 
 const App = () => {
   return (
@@ -19,7 +18,7 @@ const App = () => {
         <Route exact path="/home" component={Homepage} />
         <Route exact path="/rsvp" component={RSVP} />
         <Route exact path="/registry" component={Registry} />
-        <Route exact path="/directions" component={Directions} />
+        <Route exact path="/events" component={Events} />
         {/* <Route exact path="/accomodations" component={Accomodations} /> */}
       </div>
     </Router>
