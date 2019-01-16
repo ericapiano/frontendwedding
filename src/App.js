@@ -6,6 +6,7 @@ import AboutCouple from "./Pages/AboutCouple";
 import Homepage from "./Pages/Home";
 import RSVP from "./Pages/RSVP";
 import Events from "./Pages/Events";
+import Login from "./Pages/Login";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Route exact path="/rsvp" component={RSVP} />
         <Route exact path="/registry" component={Registry} />
         <Route exact path="/events" component={Events} />
+        <Route exact path="/login" component={Login} />
+
         {/* <Route exact path="/accomodations" component={Accomodations} /> */}
       </div>
     </Router>

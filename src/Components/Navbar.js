@@ -94,6 +94,20 @@ const Navbar = () => {
             >
               Events
             </Link>
+
+            <li className="nav-item">
+              <Link
+                to="/login"
+                className={
+                  window.location.pathname === "/login"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                style={styles.navLink}
+              >
+                Login
+              </Link>
+            </li>
           </li>
         </ul>
       </div>
