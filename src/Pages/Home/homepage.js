@@ -1,42 +1,50 @@
 import React, { Component } from "react";
 
 import "./homepage.css";
+
+import Countdown from "../../Countdown.js";
+
 // import dogpic from "./images/pups.jpg";
 
 // const styles = {
-//   hero: {
-//     backgroundImage: `url(${dogpic})`,
-//     backgroundSize: "cover",
-//     backgroundPosition: "center",
-//     backgroundBlendMode: "multiply",
-//     // backgroundColor: "red",
-//     color: "white",
-//     textShadow: "0 0 10px black",
-//     minHeight: "45vh"
+//   cursive: {
+//     // backgroundImage: `url(${dogpic})`,
+//     // backgroundSize: "cover",
+//     // backgroundPosition: "center",
+//     // backgroundBlendMode: "multiply",
+//     // // backgroundColor: "red",
+//     // color: "white",
+//     // textShadow: "0 0 10px black",
+//     // minHeight: "45vh"
 //   }
 // };
 
 class Homepage extends Component {
   state = {};
   render() {
+    const currentDate = new Date();
+    const year =
+      currentDate.getMonth() === 11 && currentDate.getDate() > 23
+        ? currentDate.getFullYear() + 1
+        : currentDate.getFullYear();
+
     return (
       <div>
         <div
           className="jumbotron jumbotron-fluid text-center d-flex align-items-center justify-content-center"
-          // style={styles.hero}
+          // style={styles.jumbotron}
+          // style={styles.cursive}
         >
-          <h1 className="display-4">WEDDING WEBSITE</h1>
+          <h1 className="display-4">Jack and Jill</h1>
+          <br />
+          <Countdown className="counter" date={`${year}-06-20T00:00:00`} />
+
+          {/* <p>Looking to meet your next best friend?</p> */}
         </div>
         <div className="container my-5">
           <div className="row">
             <div className="col-12">
-              <h3>Sup Pups!</h3>
-              <p>Looking to meet your next best friend?</p>
-              <p>Man's best friend, that is.</p>
-              <p>
-                Search our page for your perfect pup match. Swipe to see if they
-                like you back!
-              </p>
+              {/* <p>Looking to meet your next best friend?</p> */}
             </div>
           </div>
         </div>

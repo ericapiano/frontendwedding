@@ -1,0 +1,7 @@
+.btn-secondary {
+  background-color: transparent !important;
+}
+
+.nav-item:hover {
+  font-weight: 600;
+}

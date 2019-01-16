@@ -7,6 +7,13 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
+const styles = {
+  navcolor: {
+    color: "black",
+    backgroundColor: "transparent"
+  }
+};
+
 export default class Menu extends React.Component {
   constructor(props) {
     super(props);
@@ -26,13 +33,15 @@ export default class Menu extends React.Component {
   render() {
     return (
       <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-        <DropdownToggle caret>About</DropdownToggle>
-        <DropdownMenu>
-          <Link to="/about-couple">
-            <DropdownItem>{this.props.item1}</DropdownItem>
+        <DropdownToggle color={"transparent"} caret>
+          {this.props.title}
+        </DropdownToggle>
+        <DropdownMenu style={styles.navcolor}>
+          <Link to={this.props.link1}>
+            <DropdownItem>{this.props.text1}</DropdownItem>
           </Link>
-          <Link to="/about-party">
-            <DropdownItem>Bridal party</DropdownItem>
+          <Link to={this.props.link2}>
+            <DropdownItem>{this.props.text2}</DropdownItem>
           </Link>
         </DropdownMenu>
       </Dropdown>
