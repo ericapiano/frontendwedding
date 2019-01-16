@@ -1,8 +1,11 @@
 {
   "name": "frontendwedding",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "fkill-cli": "^5.2.0",
     "countdown": "^2.6.0",
     "moment": "^2.23.0",
     "moment-countdown": "0.0.3",
