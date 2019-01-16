@@ -38,9 +38,9 @@ export default class Menu extends React.Component {
         </DropdownToggle>
         <DropdownMenu style={styles.navcolor}>
           <Link to={this.props.link1}>
-            <DropdownItem>{this.props.text}</DropdownItem>
+            <DropdownItem>{this.props.text1}</DropdownItem>
           </Link>
-          <Link to={this.props.link1}>
+          <Link to={this.props.link2}>
             <DropdownItem>{this.props.text2}</DropdownItem>
           </Link>
         </DropdownMenu>

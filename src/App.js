@@ -5,7 +5,6 @@ import Navbar from "./Components/Navbar";
 import AboutCouple from "./Pages/AboutCouple";
 import Homepage from "./Pages/Home";
 import RSVP from "./Pages/RSVP";
-import Countdown from "./Countdown.js";
 import Directions from "./Pages/Directions";
 import Accomodations from "./Pages/Accomodations";
 

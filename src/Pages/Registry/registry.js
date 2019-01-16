@@ -35,13 +35,13 @@ class Registry extends Component {
                 <article>
                   <img
                     class="article-img"
-                    src="https://res-3.cloudinary.com/westfielddg/image/fetch/c_pad,f_auto,q_auto/http://res.cloudinary.com/westfielddg/image/upload/tt1r9fjzpsjcgsqget90.png"
+                    src="https://www.logolynx.com/images/logolynx/eb/eb69ec763edf8991d8c87d9742aaf57f.jpeg"
                     alt=" "
                   />
                   <div id="browse_app">
                     <a
                       class="btn btn-large btn-info shopbtn"
-                      href="www.sephora.com"
+                      href="https://www.potterybarn.com/shoppingcart/"
                     >
                       SHOP
                     </a>
@@ -50,14 +50,14 @@ class Registry extends Component {
                 <article>
                   <img
                     class="article-img"
-                    src="https://vignette.wikia.nocookie.net/malls/images/8/8c/Bloomingdale%27s_.jpg/revision/latest?cb=20170601143226"
+                    src="https://g.foolcdn.com/art/companylogos/square/BBBY.png"
                     alt=" "
                   />
                   {/* <h1 class="article-title">Title of article</h1> */}
                   <div id="browse_app">
                     <a
                       class="btn btn-large btn-info shopbtn"
-                      href="www.sephora.com"
+                      href="https://www.potterybarn.com/shoppingcart/"
                     >
                       SHOP
                     </a>
@@ -85,22 +85,22 @@ class Registry extends Component {
                     alt=" "
                   />
                   <h1 class="article-title">Title of article</h1>
-                </article>
-                <article>
+                </article> */}
+                {/* <article>
                   <img
                     class="article-img"
-                    src="http://placekitten.com/310/210"
+                    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTc9BbC0ceryp4nX9q3ATk_EMbnQmCQw-QxsV_oEfKRcZHWi0UWBy7CdXxvyAok1nqr_XvgtjbRixq2CbNr5wA7oZwXWwKhOfjkkgz6mzESF4JiakhKa_eC&usqp=CAE"
                     alt=" "
                   />
-                  <h1 class="article-title">Title of article</h1>
-                </article>
-                <article>
+                  <h1 class="article-title">Plates</h1>
+                </article> */}
+                {/* <article>
                   <img
                     class="article-img"
-                    src="http://placekitten.com/430/240"
+                    src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgXOQQqjs0oHUvg6iBANtd23knfGGCS72H82wiqhQAOUehlJJNvuAjqdpvr8-v_q0YO90iibOWZTE3gX-TVnJUUxXztcr3fHVp5004YTzjuNFlh12uHglsXw&usqp=CAE"
                     alt=" "
                   />
-                  <h1 class="article-title">Title of article</h1>
+                  <h1 class="article-title">Bedding</h1>
                 </article> */}
               </section>
             </div>

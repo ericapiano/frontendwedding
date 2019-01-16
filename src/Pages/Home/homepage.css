@@ -10,7 +10,22 @@ body {
 }
 .jumbotron {
   opacity: 0.6;
+  display: inherit !important;
+  position: relative;
+  z-index: -1;
 }
 .display-5 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  padding-top: 30px;
+}
+
+.Countdown {
+  font-size: 25px;
+}
+
+.Countdown-col {
+  margin-right: 4px;
 }

@@ -60,7 +60,13 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            {/* <Menu item1="accomodations" item2="directions" item3="Events" /> */}
+            <Menu
+              text1="accomodations"
+              text2="directions"
+              title="Events"
+              link1="/accomodations"
+              link2="/directions"
+            />
           </li>
           <li className="nav-item">
             <Link
