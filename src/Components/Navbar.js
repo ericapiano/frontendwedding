@@ -38,8 +38,8 @@ const Navbar = () => {
           <li className="nav-item">
             <Menu
               title="About"
-              text1="about the couple"
-              text2="bridal party"
+              text1="The Couple"
+              text2="The Bridal Party"
               link1="/about-couple"
               link2="/about-party"
             />
