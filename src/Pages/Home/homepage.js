@@ -4,21 +4,6 @@ import "./homepage.css";
 
 import Countdown from "../../Countdown.js";
 
-// import dogpic from "./images/pups.jpg";
-
-// const styles = {
-//   cursive: {
-//     // backgroundImage: `url(${dogpic})`,
-//     // backgroundSize: "cover",
-//     // backgroundPosition: "center",
-//     // backgroundBlendMode: "multiply",
-//     // // backgroundColor: "red",
-//     // color: "white",
-//     // textShadow: "0 0 10px black",
-//     // minHeight: "45vh"
-//   }
-// };
-
 class Homepage extends Component {
   state = {};
   render() {
@@ -30,11 +15,7 @@ class Homepage extends Component {
 
     return (
       <div>
-        <div
-          className="jumbotron jumbotron-fluid text-center d-flex align-items-center justify-content-center"
-          // style={styles.jumbotron}
-          // style={styles.cursive}
-        >
+        <div className="jumbotron jumbotron-fluid text-center d-flex align-items-center justify-content-center">
           <h1 className="display-4">Jack and Jill</h1>
           <br />
           <Countdown className="counter" date={`${year}-06-20T00:00:00`} />

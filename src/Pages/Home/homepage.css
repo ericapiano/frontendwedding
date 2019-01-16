@@ -35,8 +35,10 @@ body:after {
 
 .number {
   margin-right: 4px;
+  font-family: "Lilita One";
 }
 
 .letter {
   margin-right: 4px;
+  font-family: "Playball", cursive;
 }
