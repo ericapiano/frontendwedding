@@ -12,8 +12,10 @@
     "react": "^16.7.0",
     "react-countdown-moment": "0.0.4",
     "react-dom": "^16.7.0",
+    "react-loading-screen": "0.0.17",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3",
+    "react-spinners": "^0.5.1",
     "reactstrap": "^7.0.2"
   },
   "scripts": {
@@ -24,6 +26,15 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env"
+    ],
+    "plugins": [
+      "emotion"
+    ]
   },
   "browserslist": [
     ">0.2%",

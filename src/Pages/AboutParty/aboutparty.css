@@ -1,0 +1,30 @@
+/* brings bridal icon fully onto screen */
+.row {
+  margin: 0 -5px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* bridal party images */
+
+.weddingParty {
+  height: 20%;
+  width: 20%;
+  background-color: #e9ecef;
+  border-radius: 50%;
+}
+
+.partyPic {
+  height: 50%;
+  width: 50%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  border: 10px solid white;
+}
