@@ -26,7 +26,7 @@ class AboutCouple extends Component {
               className="jumbotron jumbotron-fluid text-center d-flex align-items-center justify-content-center"
               // style={styles.cursive}
             >
-              <h1 className="display-4">We couldn't do it without you</h1>
+              <h1 className="display-4">Our Love Story</h1>
 
               <p>
                 <img src={perfectImg} alt="sorry, image not found." />
