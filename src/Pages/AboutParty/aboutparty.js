@@ -25,7 +25,7 @@ class AboutParty extends Component {
         <div>
           <Container />
           <Row className="row">
-            <Col xs="6">
+            <Col className="column" xs="6">
               <p>
                 <img
                   className="weddingParty"
@@ -58,7 +58,7 @@ class AboutParty extends Component {
                 alt="Bridesmaid"
               />
             </Col>
-            <Col xs="6">
+            <Col className="column" xs="6">
               <p>
                 <img
                   className="weddingParty"

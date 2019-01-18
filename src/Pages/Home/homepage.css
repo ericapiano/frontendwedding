@@ -42,3 +42,9 @@ body:after {
   margin-right: 14px;
   font-family: "Playball", cursive;
 }
+
+.date {
+  font-size: 35px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 800;
+}

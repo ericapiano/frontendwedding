@@ -22,8 +22,8 @@ class Homepage extends Component {
           <p>
             <img src={perfectImg} alt="sorry, image not found." />
           </p>
-
-          <Countdown className="counter" date={`${year}-06-20T00:00:00`} />
+          <p className="date">June 22, 2019</p>
+          <Countdown className="counter" date={`${year}-06-22T17:00:00`} />
         </div>
         <div className="container my-5">
           <div className="row">

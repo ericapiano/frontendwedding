@@ -1,0 +1,25 @@
+.loadingGif {
+  height: 100vh;
+  width: 100vw;
+}
+.loadingGif > img {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .div {
+
+}
+
+.div img {
+
+}
+
+.div > img {
+
+}
+
+
+#root > div > div > div > img {
+
+} */
